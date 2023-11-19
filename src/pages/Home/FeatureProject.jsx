@@ -16,10 +16,10 @@ function FeatureProject() {
             <FeatureCard imgURL={AppImg} cat={"App Design"} date={"June 20, 2022"} title={"Redesign channel website landng page"} />
           </div>
           <div className="right grid grid-cols-2 grid-rows-2 gap-5 text-center lg:text-left">
-            <FeatureCard imgURL={Redesign} cat={"App Design"} date={"June 20, 2022"} title={"Redesign channel website landng page"} />
-            <FeatureCard imgURL={Landing} cat={"App Design"} date={"June 20, 2022"} title={"Redesign channel website landng page"} />
-            <FeatureCard imgURL={Channel} cat={"App Design"} date={"June 20, 2022"} title={"Redesign channel website landng page"} />
-            <FeatureCard imgURL={Land} cat={"App Design"} date={"June 20, 2022"} title={"Redesign channel website landng page"} />
+            <FeatureCard imgURL={Redesign} cat={"App Design"} date={"June 20, 2022"} title={"PixelCraft Studios"} />
+            <FeatureCard imgURL={Landing} cat={"App Design"} date={"June 20, 2022"} title={"WebWizards Creations"} />
+            <FeatureCard imgURL={Channel} cat={"App Design"} date={"June 20, 2022"} title={"DesignScape Innovations"} />
+            <FeatureCard imgURL={Land} cat={"App Design"} date={"June 20, 2022"} title={"CodeCanvas Studios"} />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ const Button = ({ text, color, hoverBG }) => {
 
 export const Button2 = ({ url }) => {
   return (
-    <a href={url} className="min-h-11 px-0.5 py-2 md:p-2.5 cursor-pointer rounded text-sm md:text-lg   ring-2  text-green-500     hover:text-white   hover:bg-green-500 ring-green-500">
+    <a href={url} className="min-h-11 px-4 py-2 md:p-2.5 cursor-pointer rounded text-sm md:text-lg   ring-2  text-green-500     hover:text-white   hover:bg-green-500 ring-green-500">
       Learn More &nbsp; <span className="text-xl">→</span>
     </a>
   );

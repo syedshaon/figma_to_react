@@ -12,10 +12,12 @@ const Navbar = () => {
 
   return (
     <div className="container  px-2 md:px-7  mx-auto h-20  flex justify-between items-center">
-      <h1 className="flex items-start space-x-1">
-        <span className="text-black text-xl font-bold font-Poppins">Mashi</span>
-        <span className="text-orange-600 text-xl font-bold font-Poppins">Zone</span>
-      </h1>
+      <NavLink to="/">
+        <h1 className="flex items-start space-x-1">
+          <span className="text-black text-xl font-bold font-Poppins">Mashi</span>
+          <span className="text-orange-600 text-xl font-bold font-Poppins">Zone</span>
+        </h1>
+      </NavLink>
 
       <nav className="lg:flex hidden items-center space-x-30">
         <ul className="lg:flex hidden items-center space-x-30">
