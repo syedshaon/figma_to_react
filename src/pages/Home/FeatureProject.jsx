@@ -1,9 +1,9 @@
 import FeatureCard from "../../contents/FeatureCard";
-import AppImg from "../../assets/home_images/app.png";
-import Redesign from "../../assets/home_images/redesign.png";
-import Landing from "../../assets/home_images/landing.png";
-import Channel from "../../assets/home_images/channel.png";
-import Land from "../../assets/home_images/land.png";
+import AppImg from "../../assets/home_images/app.webp";
+import Redesign from "../../assets/home_images/redesign.webp";
+import Landing from "../../assets/home_images/landing.webp";
+import Channel from "../../assets/home_images/channel.webp";
+import Land from "../../assets/home_images/land.webp";
 import Section_Intro from "../../contents/Section_Intro";
 
 function FeatureProject() {

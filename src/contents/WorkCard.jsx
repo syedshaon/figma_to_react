@@ -7,8 +7,8 @@ function WorkCard({ img, title, desc, url }) {
         <img className="w-8 h-8" src={img} alt="Icon" />
       </div>
       <div className="">
-        <h3 className="text-black text-2xl mb-5 font-semibold font-Poppins">{title}</h3>
-        <p className="text-black text-lg font-normal font-Poppins">{desc}</p>
+        <h3 className="text-black text-2xl mb-5 font-semibold ">{title}</h3>
+        <p className="text-black text-lg font-normal ">{desc}</p>
       </div>
 
       <Button2 url={url} />

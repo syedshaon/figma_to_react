@@ -3,12 +3,12 @@ import Subscribe from "./Subscribe";
 import OtherHeader from "../contents/OtherHeader";
 import Section_Intro from "../contents/Section_Intro";
 import Testimonial_single from "./Testimonials/Testimonial_single";
-import Alice from "../assets/testimonials/alice.png";
-import Brad from "../assets/testimonials/brad.png";
-import John from "../assets/testimonials/john.png";
-import Lilly from "../assets/testimonials/lilly.png";
-import Mark from "../assets/testimonials/Mark.png";
-import Rita from "../assets/testimonials/Rita.png";
+import Alice from "../assets/testimonials/alice.webp";
+import Brad from "../assets/testimonials/brad.webp";
+import John from "../assets/testimonials/john.webp";
+import Lilly from "../assets/testimonials/lilly.webp";
+import Mark from "../assets/testimonials/Mark.webp";
+import Rita from "../assets/testimonials/Rita.webp";
 
 function Testimonials() {
   return (

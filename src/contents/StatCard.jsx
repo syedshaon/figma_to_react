@@ -6,8 +6,8 @@ function StatCard({ imgURL, title, number }) {
       <div className="w-[70px] h-[70px] xl:w-[100px] xl:h-[100px] bg-emerald-100 rounded-[10px] flex justify-center">
         <img src={imgURL} alt={title} />
       </div>
-      <p className="text-black my-4 text-3xl font-semibold font-['Poppins']">{number}</p>
-      <p className="text-black text-base font-medium font-['Poppins']">{title}</p>
+      <p className="text-black my-4 text-3xl font-semibold ">{number}</p>
+      <p className="text-black text-base font-medium ">{title}</p>
     </div>
   );
 }

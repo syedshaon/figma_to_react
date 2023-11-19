@@ -4,12 +4,12 @@ import OtherHeader from "../contents/OtherHeader";
 import Section_Intro from "../contents/Section_Intro";
 
 import Project_single from "./Projects/Project_single";
-import p1 from "../assets/project_images/p1.png";
-import p2 from "../assets/project_images/p2.png";
-import p3 from "../assets/project_images/p3.png";
-import p4 from "../assets/project_images/p4.png";
-import p5 from "../assets/project_images/p5.png";
-import p6 from "../assets/project_images/p6.png";
+import p1 from "../assets/project_images/p1.webp";
+import p2 from "../assets/project_images/p2.webp";
+import p3 from "../assets/project_images/p3.webp";
+import p4 from "../assets/project_images/p4.webp";
+import p5 from "../assets/project_images/p5.webp";
+import p6 from "../assets/project_images/p6.webp";
 
 function Projects() {
   return (

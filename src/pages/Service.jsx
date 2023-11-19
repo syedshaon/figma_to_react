@@ -4,25 +4,25 @@ import OtherHeader from "../contents/OtherHeader";
 import Section_Intro from "../contents/Section_Intro";
 import Service_single from "./Services/Service_single";
 
-import Service1a from "../assets/services/1a.png";
-import Service1b from "../assets/services/1b.png";
-import Service1c from "../assets/services/1c.png";
-import Service1d from "../assets/services/1d.png";
+import Service1a from "../assets/services/1a.webp";
+import Service1b from "../assets/services/1b.webp";
+import Service1c from "../assets/services/1c.webp";
+import Service1d from "../assets/services/1d.webp";
 
-import Service2a from "../assets/services/2a.png";
-import Service2b from "../assets/services/2b.png";
-import Service2c from "../assets/services/2c.png";
-import Service2d from "../assets/services/2d.png";
+import Service2a from "../assets/services/2a.webp";
+import Service2b from "../assets/services/2b.webp";
+import Service2c from "../assets/services/2c.webp";
+import Service2d from "../assets/services/2d.webp";
 
-import Service3a from "../assets/services/3a.png";
-import Service3b from "../assets/services/3b.png";
-import Service3c from "../assets/services/3c.png";
-import Service3d from "../assets/services/3d.png";
+import Service3a from "../assets/services/3a.webp";
+import Service3b from "../assets/services/3b.webp";
+import Service3c from "../assets/services/3c.webp";
+import Service3d from "../assets/services/3d.webp";
 
-import Service4a from "../assets/services/4a.png";
-import Service4b from "../assets/services/4b.png";
-import Service4c from "../assets/services/4c.png";
-import Service4d from "../assets/services/4d.png";
+import Service4a from "../assets/services/4a.webp";
+import Service4b from "../assets/services/4b.webp";
+import Service4c from "../assets/services/4c.webp";
+import Service4d from "../assets/services/4d.webp";
 
 function Service() {
   return (

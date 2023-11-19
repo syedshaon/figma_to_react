@@ -3,8 +3,8 @@ import React from "react";
 function Service_single({ title, desc, img1, img2, img3, img4 }) {
   return (
     <div className=" max-w-[704px] text-center lg:text-left   rounded-[20px] shadow-md">
-      <h3 className="text-black p-5 pb-0  text-[26px] font-semibold font-['Poppins'] uppercase">{title}</h3>
-      <p className=" p-5 text-neutral-400 text-base font-normal font-['Poppins'] capitalize">{desc}</p>
+      <h3 className="text-black p-5 pb-0  text-[26px] font-semibold  uppercase">{title}</h3>
+      <p className=" p-5 text-neutral-400 text-base font-normal  capitalize">{desc}</p>
       <div className="img-container ">
         <div className="flex">
           <img src={img1} className="w-9/12  " alt="" />

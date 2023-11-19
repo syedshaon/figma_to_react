@@ -20,7 +20,7 @@ function Member({ name, imgUrl, fb = "https://www.facebook.com/", tw = "https://
           </a>
         </div>
       </div>
-      <p className="my-6 text-center text-gray-900 text-3xl font-semibold font-['Poppins'] leading-relaxed">{name}</p>
+      <p className="my-6 text-center text-gray-900 text-3xl font-semibold  leading-relaxed">{name}</p>
     </div>
   );
 }

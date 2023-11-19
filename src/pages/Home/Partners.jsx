@@ -1,8 +1,8 @@
-import Google from "../../assets/home_images/google.png";
-import Trello from "../../assets/home_images/Trello.png";
-import monday from "../../assets/home_images/monday.png";
-import notion from "../../assets/home_images/Notion.png";
-import slack from "../../assets/home_images/Slack.png";
+import Google from "../../assets/home_images/google.webp";
+import Trello from "../../assets/home_images/Trello.webp";
+import monday from "../../assets/home_images/monday.webp";
+import notion from "../../assets/home_images/Notion.webp";
+import slack from "../../assets/home_images/Slack.webp";
 
 function Partners() {
   return (

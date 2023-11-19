@@ -2,9 +2,9 @@ import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import OtherHeader from "../contents/OtherHeader";
 import Member from "./Team/Member";
-import Devon from "../assets/team_images/devon.png";
-import Danny from "../assets/team_images/danny.png";
-import Alex from "../assets/team_images/alex.png";
+import Devon from "../assets/team_images/devon.webp";
+import Danny from "../assets/team_images/danny.webp";
+import Alex from "../assets/team_images/alex.webp";
 import Section_Intro from "../contents/Section_Intro";
 
 function Team() {
