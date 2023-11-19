@@ -10,7 +10,7 @@ function Hero() {
     <div className="   container  px-2 md:px-7    min-h-[637px]  justify-center  md:justify-between items-center flex flex-col  md:flex-row ">
       <div className="pb-10 md:pb-0 text-center md:text-left  left md:w-1/2 md:pr-10 order-2 md:order-1">
         <div className="  flex-col gap-2.5">
-          <h3 className="text-black text-5xl font-bold font-Poppins">Increase Your Customers Loyalty and Satisfaction</h3>
+          <h2 className="text-black text-5xl font-bold font-Poppins">Increase Your Customers Loyalty and Satisfaction</h2>
           <p className="my-10 text-black text-xl font-medium font-Poppins">We help businesses like yours earn more customers, standout from competitors, make more money</p>
         </div>
 

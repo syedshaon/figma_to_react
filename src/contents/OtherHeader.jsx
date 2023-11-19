@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../pages/Navbar";
+import { NavLink } from "react-router-dom";
 
 function OtherHeader({ parent, title }) {
   return (
@@ -10,13 +11,15 @@ function OtherHeader({ parent, title }) {
       <div className="relative z-20 top-0 right-0  ">
         <Navbar />
         <div className="page-title container py-7  px-2 md:px-7 mt-5 lg:mt-28">
-          <div className="text-gray-900 text-[40px] font-semibold  leading-[51px]">{title}</div>
+          <h2 className="text-gray-900 text-[40px] font-semibold  leading-[51px]">{title}</h2>
           <nav>
-            <a className="text-gray-900 text-base    leading-[25px]">
-              {parent} <span className="mx-3"> &#62; </span>
-            </a>
+            <NavLink to="/">
+              <span className="text-gray-900 text-base    leading-[25px]">
+                {parent} <span className="mx-3"> &#62; </span>
+              </span>
+            </NavLink>
 
-            <a className="text-green-500 text-base     leading-[25px]">{title}</a>
+            <span className="text-green-500 text-base     leading-[25px]">{title}</span>
           </nav>
         </div>
       </div>

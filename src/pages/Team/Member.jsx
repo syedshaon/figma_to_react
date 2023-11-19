@@ -9,13 +9,13 @@ function Member({ name, imgUrl, fb = "https://www.facebook.com/", tw = "https://
         <img src={imgUrl} alt={name} />
 
         <div className="absolute bottom-4  left-[28%] text-gray-500 font-normal text-base w-[145px] h-[50px] flex justify-around items-center bg-white rounded-[25px] shadow-md">
-          <a target="_blank" className="cursor-pointer" href={fb}>
+          <a aria-label="Facebook" target="_blank" className="cursor-pointer" href={fb}>
             <FaFacebookF />
           </a>
-          <a href={tw} className="cursor-pointer border-gray-200 border border-t-0 border-b-0 px-3  border-l-2 border-r-2">
+          <a aria-label="Twitter" href={tw} className="cursor-pointer border-gray-200 border border-t-0 border-b-0 px-3  border-l-2 border-r-2">
             <FaTwitter />
           </a>
-          <a className="cursor-pointer" href={ins}>
+          <a aria-label="Instagram" className="cursor-pointer" href={ins}>
             <FaInstagram />
           </a>
         </div>
