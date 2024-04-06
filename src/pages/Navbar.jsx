@@ -14,8 +14,8 @@ const Navbar = () => {
     <div className="container  px-2 md:px-7  mx-auto h-20  flex justify-between items-center">
       <NavLink to="/">
         <h1 className="flex items-start space-x-1">
-          <span className="text-black text-xl font-bold ">Mashi</span>
-          <span className="text-orange-600 text-xl font-bold ">Zone</span>
+          <span className="text-black text-xl font-bold ">Design</span>
+          <span className="text-orange-600 text-xl font-bold ">Agency</span>
         </h1>
       </NavLink>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
 
       {/* Mobile Menu (Hamburger Icon) */}
       <div className="lg:hidden flex items-center">
-        <button onClick={() => setMenuOpen(!isMenuOpen)} className="text-black text-xl focus:outline-none transition-transform transform">
+        <button onClick={() => setMenuOpen(!isMenuOpen)} className="text-black text-xl focus:outline-none transition-transform duration-300 transform">
           {isMenuOpen ? (
             <span>&times;</span> // "X" icon
           ) : (

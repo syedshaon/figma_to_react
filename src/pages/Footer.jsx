@@ -10,8 +10,8 @@ function Footer() {
       <div className="container items-start px-2 md:px-7 grid  grid-cols-1  lg:grid-cols-3   ">
         <div className="info text-center lg:text-left">
           <p className="  text-[39.20px] font-bold   ">
-            <span className="text-white mr-1 ">Mashi</span>
-            <span className="text-orange-600 ">Zone</span>
+            <span className="text-white mr-1 ">Design</span>
+            <span className="text-orange-600 ">Agency</span>
           </p>
           <p className="max-w-[328px] mx-auto lg:mx-0 mt-5 text-white   font-normal ">Some footer text about the Agency. Just a little description to help people understand you better</p>
           <div className="social  flex w-full justify-center lg:justify-start gap-3 my-5">
